@@ -1,7 +1,6 @@
 import { Button, makeStyles } from '@material-ui/core';
 import React from 'react';
 import tree from './images/tree_background.jpg';
-import { Section } from 'react-smart-sections';
 import { Link } from 'react-scroll';
 import Menu from './Menu';
 import tree_logo from './images/logo_tree_only.png';
@@ -74,7 +73,7 @@ function Home() {
             <div className={classes.steps}>
                 <Menu />
                 <h1 className={classes.mainHeader} id="start">How to Build your Communitree</h1>
-                <Section className={classes.step} name="stepOne" id="stepOne">
+                <div className={classes.step} name="stepOne" id="stepOne">
                     <h2 className={classes.stepHeader}>
                         Step 1: Decide the main focus for your Communitree
                     </h2>
@@ -86,14 +85,14 @@ function Home() {
                         <li>Create a meeting place for your community</li>
                         <li>Reconnect the people in your community back to nature</li>
                     </ul>
-                </Section>
-                <Section className={classes.step} name="stepTwo" id="stepTwo">
+                </div>
+                <div className={classes.step} name="stepTwo" id="stepTwo">
                     <h2 className={classes.stepHeader}>
                         Step 2: Find your Communitree
                     </h2>
                     <p>This should be in a public place that people pass by often. Try finding trees with low hanging branches that are easily accessible.</p>
-                </Section>
-                <Section className={classes.step} name="stepThree" id="stepThree">
+                </div>
+                <div className={classes.step} name="stepThree" id="stepThree">
                     <h2 className={classes.stepHeader}>
                         Step 3: Gather materials
                     </h2>
@@ -110,28 +109,28 @@ function Home() {
                         <li>Canvases</li>
                     </ul>
                     <p>Ask around the community to see what people might already have around the house. Other things can be sourced from op shops and local stores.</p>
-                </Section>
-                <Section className={classes.step} name="stepFour" id="stepFour">
+                </div>
+                <div className={classes.step} name="stepFour" id="stepFour">
                     <h2 className={classes.stepHeader}>
                         Step 4: Discover local notices and issues
                     </h2>
                     <p>Local notices can be found at community centres or libraries. Have a look on your local council website as well. </p>
                     <p>If possible, try talking to people in the community and ask what issues are affecting them 	most at the moment. </p>
-                </Section>
-                <Section className={classes.step} name="stepFive" id="stepFive">
+                </div>
+                <div className={classes.step} name="stepFive" id="stepFive">
                     <h2 className={classes.stepHeader}>
                         Step 5: Design and create
                     </h2>
                     <p>Utilise your strengths! Do you have a carpenter friend who could make a bird box? Know any aspiring artists to try some banner painting?</p>
                     <p>Use frames and paper to display any notices and information gathered from step 4.</p>
-                </Section>
-                <Section className={classes.step} name="stepSix" id="stepSix">
+                </div>
+                <div className={classes.step} name="stepSix" id="stepSix">
                     <h2 className={classes.stepHeader}>
                         Step 6: Build your tree!
                     </h2>
                     <p>Gather as many people as possible and add all the elements to the tree. This can be done in a day or over time.</p>
                     <p>Disclaimer: Do not harm the tree in any way by using a hammer and nails, ripping branches or tearing leaves. Where possible, also try to prevent rubbish.</p>
-                </Section>
+                </div>
             </div>
             <div className={classes.space}>
                 <img src={tree_logo} />

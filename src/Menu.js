@@ -1,7 +1,6 @@
 import { makeStyles, MenuItem, MenuList } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import { SectionsSpy } from 'react-smart-sections';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -42,31 +41,29 @@ export default function Menu() {
     }, []);
 
     return (
-        <SectionsSpy render={sections => (
-            <div className={`${classes.root} ${scrollPosition > 530 && classes.fixed}`}>
+        <div className={`${classes.root} ${scrollPosition > 530 && classes.fixed}`}>
 
-                <MenuList>
-                    <Link activeClass={classes.active} to="stepOne" spy={true} duration={500} smooth={true} offset={-50}>
-                        <MenuItem>Step 1</MenuItem>
-                    </Link>
-                    <Link activeClass={classes.active} to="stepTwo" spy={true} duration={500} smooth={true} offset={-50}>
-                        <MenuItem>Step 2</MenuItem>
-                    </Link>
-                    <Link activeClass={classes.active} to="stepThree" spy={true} duration={500} smooth={true} offset={-50}>
-                        <MenuItem>Step 3</MenuItem>
-                    </Link>
-                    <Link activeClass={classes.active} to="stepFour" spy={true} duration={500} smooth={true} offset={-50}>
-                        <MenuItem>Step 4</MenuItem>
-                    </Link>
-                    <Link activeClass={classes.active} to="stepFive" spy={true} duration={500} smooth={true} offset={-50}>
-                        <MenuItem>Step 5</MenuItem>
-                    </Link>
-                    <Link activeClass={classes.active} to="stepSix" spy={true} duration={500} smooth={true} offset={-50}>
-                        <MenuItem>Step 6</MenuItem>
-                    </Link>
-                </MenuList>
+            <MenuList>
+                <Link activeClass={classes.active} to="stepOne" spy={true} duration={500} smooth={true} offset={-50}>
+                    <MenuItem>Step 1</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepTwo" spy={true} duration={500} smooth={true} offset={-50}>
+                    <MenuItem>Step 2</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepThree" spy={true} duration={500} smooth={true} offset={-50}>
+                    <MenuItem>Step 3</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepFour" spy={true} duration={500} smooth={true} offset={-50}>
+                    <MenuItem>Step 4</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepFive" spy={true} duration={500} smooth={true} offset={-50}>
+                    <MenuItem>Step 5</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepSix" spy={true} duration={500} smooth={true} offset={-50}>
+                    <MenuItem>Step 6</MenuItem>
+                </Link>
+            </MenuList>
 
-            </div>
-        )} />
+        </div>
     )
 }
