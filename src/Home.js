@@ -133,7 +133,7 @@ function Home() {
                 </div>
             </div>
             <div className={classes.space}>
-                <img src={tree_logo} />
+                <img src={tree_logo} alt="Communitree logo"/>
             </div>
 
         </div>
