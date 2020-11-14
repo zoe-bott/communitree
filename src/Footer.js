@@ -27,7 +27,7 @@ export default function Footer() {
             <AppBar position="static" className={classes.footer}>
                 <Toolbar>
                     <Typography className={classes.copyright}>
-                        © Zoe Bott 2020
+                        © Some mates that care about the environment, 2020
                     </Typography>
                 </Toolbar>
             </AppBar>

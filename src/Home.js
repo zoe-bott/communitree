@@ -32,9 +32,10 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "left",
         fontSize: 20,
         position: "relative",
+        lineHeight: 1.5,
     },
     step: {
-        paddingTop: 70,
+        paddingTop: 40,
     },
     stepHeader: {
         fontFamily: "Handlee",
@@ -48,6 +49,12 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: -30,
         // textDecoration: "underline",
         textDecorationColor: theme.palette.secondary.main,
+    },
+    text: {
+        float: "left",
+        width: "calc(100% - 150px)",
+        textAlign: "justify",
+        paddingRight: 10,
     },
     space: {
         marginTop: 80,
@@ -73,9 +80,17 @@ function Home() {
             <div className={classes.steps}>
                 <Menu />
                 <h1 className={classes.mainHeader} id="start">How to Build your Communitree</h1>
-                <div className={classes.step} name="stepOne" id="stepOne">
+                <div className={classes.step} id="stepOne">
                     <h2 className={classes.stepHeader}>
-                        Step 1: Decide the main focus for your Communitree
+                        Step 1: Find some friends
+                    </h2>
+                    <p><b>Communitrees are about community.</b> The very exercise of planning and building a Communitree can be transformative and foster greater connectivity. Have a think about who could help you to initiate your Communitree!</p>
+                    
+
+                </div>
+                <div className={classes.step} id="stepTwo">
+                    <h2 className={classes.stepHeader}>
+                        Step 2: Decide the main focus for your Communitree
                     </h2>
                     <p>What is the main message you want people to come away with? Decide on any activities and messages/artwork you wish to display on the tree.</p>
                     <p>Here are some ideas to get you started:</p>
@@ -86,17 +101,17 @@ function Home() {
                         <li>Reconnect the people in your community back to nature</li>
                     </ul>
                 </div>
-                <div className={classes.step} name="stepTwo" id="stepTwo">
+                <div className={classes.step} id="stepThree">
                     <h2 className={classes.stepHeader}>
-                        Step 2: Find your Communitree
+                        Step 3: Find your Communitree
                     </h2>
-                    <p>This should be in a public place that people pass by often. Try finding trees with low hanging branches that are easily accessible.</p>
+                    <p>This should be in a public place that people pass by often. Try to find trees with low hanging branches that are easily accessible by all community members. A nearby bench is also desirable so that people can sit under the tree and connect with one another. </p>
                 </div>
-                <div className={classes.step} name="stepThree" id="stepThree">
+                <div className={classes.step} id="stepFour">
                     <h2 className={classes.stepHeader}>
-                        Step 3: Gather materials
+                        Step 4: Gather materials
                     </h2>
-                    <p>Gather all the materials required to make your ideas come to life! We would recommend materials resistant to rain and wind.</p>
+                    <p>Gather all the materials required to make your ideas come to life! Try finding materials resistant to the rain and wind. </p>
                     <p>Examples of materials that could be used:</p>
                     <ul>
                         <li>Fabric</li>
@@ -108,33 +123,50 @@ function Home() {
                         <li>Bird feeders</li>
                         <li>Canvases</li>
                     </ul>
-                    <p>Ask around the community to see what people might already have around the house. Other things can be sourced from op shops and local stores.</p>
+                    <p>Ask around the community to see what people might already have around the house. Other things can be sourced from op shops and local stores… try not to buy anything new!</p>
                 </div>
-                <div className={classes.step} name="stepFour" id="stepFour">
+                <div className={classes.step} id="stepFive">
                     <h2 className={classes.stepHeader}>
-                        Step 4: Discover local notices and issues
-                    </h2>
-                    <p>Local notices can be found at community centres or libraries. Have a look on your local council website as well. </p>
-                    <p>If possible, try talking to people in the community and ask what issues are affecting them 	most at the moment. </p>
-                </div>
-                <div className={classes.step} name="stepFive" id="stepFive">
-                    <h2 className={classes.stepHeader}>
-                        Step 5: Design and create
+                        Step 5: Create the components
                     </h2>
                     <p>Utilise your strengths! Do you have a carpenter friend who could make a bird box? Know any aspiring artists to try some banner painting?</p>
-                    <p>Use frames and paper to display any notices and information gathered from step 4.</p>
                 </div>
-                <div className={classes.step} name="stepSix" id="stepSix">
+                <div className={classes.step} id="stepSix">
                     <h2 className={classes.stepHeader}>
-                        Step 6: Build your tree!
+                        Step 6: Make the noticeboard
                     </h2>
-                    <p>Gather as many people as possible and add all the elements to the tree. This can be done in a day or over time.</p>
-                    <p>Disclaimer: Do not harm the tree in any way by using a hammer and nails, ripping branches or tearing leaves. Where possible, also try to prevent rubbish.</p>
+                    <p>The Communitree noticeboard is a place for local notices, events, groups and information about your Communitree. Customise this to fit with the goals and values of your Communitree. Templates can be found here. </p>
+                    <p>Get creative when making the board! Local notices can be found at community centres or libraries. Have a look on your local council website as well. If possible, talk to people in the community and ask what issues are affecting them most.</p>
+                </div>
+                <div className={classes.step} id="stepSeven">
+                    <h2 className={classes.stepHeader}>
+                        Step 7: Setup your online community
+                    </h2>
+                    <p>An online platform helps your Communitree reach more people and stay accessible. Create a Facebook page or email group to keep people up to date, connected and involved in the growth of your Commmunitree!</p>
+
+                </div>
+                <div className={classes.step} id="stepEight">
+                    <h2 className={classes.stepHeader}>
+                        Step 8: Build your tree!
+                    </h2>
+                    <p>Gather as many friends as possible and add all the elements to the tree. This can be done in a day or over time. A cool idea is to have an opening event where community members can make art and contribute to the Communitree from the get go.</p>
+
+
+                </div>
+                <div className={classes.step} id="stepNine">
+                    <h2 className={classes.stepHeader}>
+                        Step 9: Watch it grow
+                    </h2>
+                    <p>The Communitree is an ever-evolving project which will continue to change and develop in accordance with the values and wishes of your community. Empower local members to take an active role in updating the Communitree noticeboard and growing the community.</p>
+
                 </div>
             </div>
             <div className={classes.space}>
-                <img src={tree_logo} alt="Communitree logo"/>
+                <img src={tree_logo} alt="Communitree logo" />
             </div>
+            <p className={classes.steps}>
+                <b>Disclaimer:</b> Please do not harm the tree in any way by using a hammer and nails, ripping branches, tearing leaves or applying any permanent materials (eg paint). Treat the tree as you would treat your loved ones… with respect, dignity and care.
+                    </p>
 
         </div>
     )

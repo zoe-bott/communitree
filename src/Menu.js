@@ -44,23 +44,32 @@ export default function Menu() {
         <div className={`${classes.root} ${scrollPosition > 530 && classes.fixed}`}>
 
             <MenuList>
-                <Link activeClass={classes.active} to="stepOne" spy={true} duration={500} smooth={true} offset={-50}>
+                <Link activeClass={classes.active} to="stepOne" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 1</MenuItem>
                 </Link>
-                <Link activeClass={classes.active} to="stepTwo" spy={true} duration={500} smooth={true} offset={-50}>
+                <Link activeClass={classes.active} to="stepTwo" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 2</MenuItem>
                 </Link>
-                <Link activeClass={classes.active} to="stepThree" spy={true} duration={500} smooth={true} offset={-50}>
+                <Link activeClass={classes.active} to="stepThree" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 3</MenuItem>
                 </Link>
-                <Link activeClass={classes.active} to="stepFour" spy={true} duration={500} smooth={true} offset={-50}>
+                <Link activeClass={classes.active} to="stepFour" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 4</MenuItem>
                 </Link>
-                <Link activeClass={classes.active} to="stepFive" spy={true} duration={500} smooth={true} offset={-50}>
+                <Link activeClass={classes.active} to="stepFive" spy={true} duration={500} smooth={true} >
                     <MenuItem>Step 5</MenuItem>
                 </Link>
-                <Link activeClass={classes.active} to="stepSix" spy={true} duration={500} smooth={true} offset={-50}>
+                <Link activeClass={classes.active} to="stepSix" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 6</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepSeven" spy={true} duration={500} smooth={true}>
+                    <MenuItem>Step 7</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepEight" spy={true} duration={500} smooth={true}>
+                    <MenuItem>Step 8</MenuItem>
+                </Link>
+                <Link activeClass={classes.active} to="stepNine" spy={true} duration={500} smooth={true}>
+                    <MenuItem>Step 9</MenuItem>
                 </Link>
             </MenuList>
 
