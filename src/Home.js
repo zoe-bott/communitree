@@ -85,80 +85,43 @@ function Home() {
                         Step 1: Find some friends
                     </h2>
                     <p><b>Communitrees are about community.</b> The very exercise of planning and building a Communitree can be transformative and foster greater connectivity. Have a think about who could help you to initiate your Communitree!</p>
-                    
+
 
                 </div>
                 <div className={classes.step} id="stepTwo">
                     <h2 className={classes.stepHeader}>
-                        Step 2: Decide the main focus for your Communitree
+                        Step 2: Find your Communitree
                     </h2>
-                    <p>What is the main message you want people to come away with? Decide on any activities and messages/artwork you wish to display on the tree.</p>
-                    <p>Here are some ideas to get you started:</p>
-                    <ul>
-                        <li>Help people make connections within your community</li>
-                        <li>Bring joy and appreciation to passerbys</li>
-                        <li>Create a meeting place for your community</li>
-                        <li>Reconnect the people in your community back to nature</li>
-                    </ul>
+                    <p>Find a tree which you and others in your community can access easily and connect with. Trees in central areas with low hanging branches are most accessible and easy to decorate. A nearby bench is also desirable so that people can sit under the tree and connect with one another.</p>
                 </div>
                 <div className={classes.step} id="stepThree">
                     <h2 className={classes.stepHeader}>
-                        Step 3: Find your Communitree
+                        Step 3: Preparation
                     </h2>
-                    <p>This should be in a public place that people pass by often. Try to find trees with low hanging branches that are easily accessible by all community members. A nearby bench is also desirable so that people can sit under the tree and connect with one another. </p>
+                    <p>Gather materials, make the community noticeboard and bring your ideas to life! Ideally, all materials should be recycled or second-hand and resistant to the wind and rain. Ask around your community to see what people have lying around!</p>
+
+                    <p>Get creative when making your Communitree noticeboard - a place for local notices, events, groups and information about your Communitree. Customise the board to fit with the goals and values of your Communitree. Templates can be found here.</p>
+
+                    <p>Use your networks and community strengths when creating the initial components for your tree.  Do you have a carpenter friend who could make a bird box? Know any aspiring artists to try some banner painting? How could you engage the community to co-create the decorations?
+                    </p>
                 </div>
                 <div className={classes.step} id="stepFour">
                     <h2 className={classes.stepHeader}>
-                        Step 4: Gather materials
+                        Step 4: Setup your online community
                     </h2>
-                    <p>Gather all the materials required to make your ideas come to life! Try finding materials resistant to the rain and wind. </p>
-                    <p>Examples of materials that could be used:</p>
-                    <ul>
-                        <li>Fabric</li>
-                        <li>Paint</li>
-                        <li>Wood</li>
-                        <li>Rope</li>
-                        <li>Frames</li>
-                        <li>Black boards</li>
-                        <li>Bird feeders</li>
-                        <li>Canvases</li>
-                    </ul>
-                    <p>Ask around the community to see what people might already have around the house. Other things can be sourced from op shops and local stores… try not to buy anything new!</p>
+                    <p>An online platform helps your Communitree reach more people and stay accessible. Create a Facebook page or email group to keep people up to date, connected and involved in the growth of your Commmunitree!</p>
                 </div>
                 <div className={classes.step} id="stepFive">
                     <h2 className={classes.stepHeader}>
-                        Step 5: Create the components
+                        Step 5: Build your tree!
                     </h2>
-                    <p>Utilise your strengths! Do you have a carpenter friend who could make a bird box? Know any aspiring artists to try some banner painting?</p>
+                    <p>Organise an opening event with friends and community members to add all the elements to the tree. The tree will evolve over time (that’s the whole point!) so you don’t need to fill it up but adding some initial decorations and the noticeboard are a great way to get more people involved?</p>
                 </div>
                 <div className={classes.step} id="stepSix">
-                    <h2 className={classes.stepHeader}>
-                        Step 6: Make the noticeboard
-                    </h2>
-                    <p>The Communitree noticeboard is a place for local notices, events, groups and information about your Communitree. Customise this to fit with the goals and values of your Communitree. Templates can be found here. </p>
-                    <p>Get creative when making the board! Local notices can be found at community centres or libraries. Have a look on your local council website as well. If possible, talk to people in the community and ask what issues are affecting them most.</p>
-                </div>
-                <div className={classes.step} id="stepSeven">
-                    <h2 className={classes.stepHeader}>
-                        Step 7: Setup your online community
-                    </h2>
-                    <p>An online platform helps your Communitree reach more people and stay accessible. Create a Facebook page or email group to keep people up to date, connected and involved in the growth of your Commmunitree!</p>
-
-                </div>
-                <div className={classes.step} id="stepEight">
-                    <h2 className={classes.stepHeader}>
-                        Step 8: Build your tree!
-                    </h2>
-                    <p>Gather as many friends as possible and add all the elements to the tree. This can be done in a day or over time. A cool idea is to have an opening event where community members can make art and contribute to the Communitree from the get go.</p>
-
-
-                </div>
-                <div className={classes.step} id="stepNine">
                     <h2 className={classes.stepHeader}>
                         Step 9: Watch it grow
                     </h2>
                     <p>The Communitree is an ever-evolving project which will continue to change and develop in accordance with the values and wishes of your community. Empower local members to take an active role in updating the Communitree noticeboard and growing the community.</p>
-
                 </div>
             </div>
             <div className={classes.space}>

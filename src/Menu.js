@@ -62,15 +62,15 @@ export default function Menu() {
                 <Link activeClass={classes.active} to="stepSix" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 6</MenuItem>
                 </Link>
-                <Link activeClass={classes.active} to="stepSeven" spy={true} duration={500} smooth={true}>
+                {/* <Link activeClass={classes.active} to="stepSeven" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 7</MenuItem>
                 </Link>
                 <Link activeClass={classes.active} to="stepEight" spy={true} duration={500} smooth={true}>
                     <MenuItem>Step 8</MenuItem>
                 </Link>
                 <Link activeClass={classes.active} to="stepNine" spy={true} duration={500} smooth={true}>
-                    <MenuItem>Step 9</MenuItem>
-                </Link>
+                    <MenuItem>Step 9</MenuItem> */}
+                {/* </Link> */}
             </MenuList>
 
         </div>
