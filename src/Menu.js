@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         // top: 0,
         // left: 0,
-        left: `calc(-1 * (20% + 11px))`,
+        left: 70,
         top: 80,
         borderRight: "solid 1px #549876"
     },
@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     fixed: {
         position: "fixed",
         top: "20vh",
-        left: `calc(10% - 40px)`
+        left: 70
     }
 }));
 
@@ -30,6 +30,7 @@ export default function Menu() {
     const handleScroll = () => {
         const position = window.pageYOffset;
         setScrollPosition(position);
+        console.log(position)
     };
 
     useEffect(() => {
@@ -41,7 +42,7 @@ export default function Menu() {
     }, []);
 
     return (
-        <div className={`${classes.root} ${scrollPosition > 530 && classes.fixed}`}>
+        <div className={`${classes.root} ${scrollPosition > 1180 && classes.fixed}`}>
 
             <MenuList>
                 <Link activeClass={classes.active} to="stepOne" spy={true} duration={500} smooth={true}>
