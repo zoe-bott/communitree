@@ -90,7 +90,7 @@ function Home() {
             </div>
             <div className={classes.video}>
                 <h1 className={classes.mainHeader}>Communitree Video</h1>
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/ScO3i1QXR4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="communitree" width="100%" height="500" src="https://www.youtube.com/embed/ScO3i1QXR4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className={classes.steps}>
                 <Menu />
